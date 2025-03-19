@@ -26,12 +26,3 @@ def test_add_random_product_in_cart(browser):
         remove_buttons[0].click()
     else:
         raise Exception("Товар не добавлен в корзину")
-
-
-
-
-
-
-
-
-
